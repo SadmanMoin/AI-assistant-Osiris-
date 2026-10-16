@@ -1,0 +1,32 @@
+{
+  "id": "sys-social-draft",
+  "name": "Daily social draft",
+  "description": "Save a LinkedIn draft from a topic. It does not publish.",
+  "status": "approved",
+  "enabled": true,
+  "version": 1,
+  "permissions": [
+    "social.draft"
+  ],
+  "integrations": [
+    "social"
+  ],
+  "parameters": {
+    "topic": {
+      "type": "string",
+      "required": true,
+      "label": "Topic"
+    }
+  },
+  "created_at": "2026-10-16T05:09:46.915334+00:00",
+  "updated_at": "2026-10-16T05:09:46.915334+00:00",
+  "last_execution_at": null,
+  "last_status": null,
+  "script_file": "C:\\Users\\sadma\\MyAIAssistant\\automation\\approved\\sys-social-draft\\v1.py",
+  "source_sha256": "89b7c70326dbb48ebc5f3d320870acd8e0260db3a59e8b6b381e351399202f31",
+  "test_results": {
+    "ok": false,
+    "status": "not_run",
+    "summary": "Shipped script passed static validation. Run a safe test to record an execution."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "sys-github-updates",
+  "name": "GitHub repository updates",
+  "description": "Read recent commits and open issues for one repository.",
+  "status": "approved",
+  "enabled": true,
+  "version": 1,
+  "permissions": [
+    "github.read"
+  ],
+  "integrations": [
+    "github"
+  ],
+  "parameters": {
+    "repository": {
+      "type": "string",
+      "required": true,
+      "label": "Repository (owner/name)"
+    },
+    "limit": {
+      "type": "int",
+      "required": false,
+      "label": "How many items",
+      "default": 5
+    }
+  },
+  "created_at": "2026-10-16T05:09:46.888530+00:00",
+  "updated_at": "2026-10-16T05:09:46.888530+00:00",
+  "last_execution_at": null,
+  "last_status": null,
+  "script_file": "C:\\Users\\sadma\\MyAIAssistant\\automation\\approved\\sys-github-updates\\v1.py",
+  "source_sha256": "e54f2e4303b4e897574915cac177fb5c423c07aad87d88cd080219f1e7b33a6b",
+  "test_results": {
+    "ok": false,
+    "status": "not_run",
+    "summary": "Shipped script passed static validation. Run a safe test to record an execution."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "sys-project-monitor",
+  "name": "Daily project monitoring",
+  "description": "Read configured projects and report what was actually checked.",
+  "status": "approved",
+  "enabled": true,
+  "version": 1,
+  "permissions": [
+    "projects.read"
+  ],
+  "integrations": [
+    "projects"
+  ],
+  "parameters": {},
+  "created_at": "2026-10-16T05:09:46.827831+00:00",
+  "updated_at": "2026-10-16T05:09:46.827831+00:00",
+  "last_execution_at": null,
+  "last_status": null,
+  "script_file": "C:\\Users\\sadma\\MyAIAssistant\\automation\\approved\\sys-project-monitor\\v1.py",
+  "source_sha256": "cb9c7963e62222a81d4f2e4a4e6506c1fc7c08fb4e6d628cfa104532a1a75d5d",
+  "test_results": {
+    "ok": false,
+    "status": "not_run",
+    "summary": "Shipped script passed static validation. Run a safe test to record an execution."
+  }
+}
